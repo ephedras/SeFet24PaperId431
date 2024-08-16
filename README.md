@@ -1,6 +1,13 @@
 # Impact of Activation Functions in Deep Learning Based State of Charge Estimation for Batteries
+![Methodology](https://github.com/user-attachments/assets/85c0b22b-9af1-45c9-b715-272e8778324f)
+
 ## Abstract
 Deep learning (DL) models are becoming popular for estimating State of Charge (SOC) in batteries. These models are good at finding complex patterns in data. This means that there is no need to fully understand the physics of how batteries work to use them, making DL models easier to implement than other methods. Within DL, activation functions are pivotal as they introduce non-linearity, enabling the capture of complex data relationships. This study systematically examines the impact of various activation functions on the performance of a DL model, specifically Deep LSTM. Notable differences in model performance based on activation function choice are revealed. Mean Absolute Errors (MAE) are reported as 1.91%, 1.99%, and 2.03% for models trained with SELU, Leaky ReLU, and Tanh activations, respectively. The SELU-trained model achieves the highest accuracy. However, the Tanh model significantly outperforms others in computational efficiency per step, particularly in GPU-enabled environments. It requires only 4ms/step, approximately 71% faster than its nearest counterpart. This efficiency is critical for periodic model training to accommodate battery aging effects on SOC predictions over time, as reduced training time leads to lower computational and deployment costs.
+
+![DeepLearning](https://github.com/user-attachments/assets/91b97d7f-60c3-4c4c-8799-5119f108cbe3)
+## Deep LSTM (Ref. citations)
+![DeepLSTM](https://github.com/user-attachments/assets/f1684813-4aee-4722-bfcb-0103735d8625)
+
 
 ## Activation Functions
 
@@ -62,6 +69,8 @@ x & \text{if } x > 0 \\
 $$
 
 where, in SELU,  $\lambda$ $\approx$ 1.05 is the scale and $\alpha$ $\approx$ 1.67 is the parameter that is hard-coded in the formula to ensure self-normalization. $\alpha$ in ELU and LeakyReLU are the magnitude at which a slope is added to the negative input's output and help in mitigating vanishing gradient problems. $\sigma$ in Swish is a sigmoid function.
+
+
 
 ## Figure 1: Activation Functions and it's Derivatives
 ![Activation functions](assets/act_der_comb.png)
