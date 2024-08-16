@@ -64,7 +64,7 @@ $$
 where, in SELU,  $\lambda$ $\approx$ 1.05 is the scale and $\alpha$ $\approx$ 1.67 is the parameter that is hard-coded in the formula to ensure self-normalization. $\alpha$ in ELU and LeakyReLU are the magnitude at which a slope is added to the negative input's output and help in mitigating vanishing gradient problems. $\sigma$ in Swish is a sigmoid function.
 
 ## Figure 1: Activation Functions and it's Derivatives
-![Activation functions](assets\act_der_comb.png)
+![Activation functions](assets/act_der_comb.png)
 
 ## Results
 
@@ -86,7 +86,7 @@ where, in SELU,  $\lambda$ $\approx$ 1.05 is the scale and $\alpha$ $\approx$ 1.
 <sup>2</sup>*The parameter $\alpha$ is kept at default value of 0.01.*
 
 ## Figure 2: Results Comparison
-![Graph Results](assets\Graph_sefet.png)
+![Graph Results](assets/Graph_sefet.png)
 
 ## Codes and model weights will be released at the earliest once the paper is published.
 
