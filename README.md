@@ -83,7 +83,7 @@ where, in SELU,  $\lambda$ $\approx$ 1.05 is the scale and $\alpha$ $\approx$ 1.
 
 <sup>1</sup>*ReLU is not considered for evaluation due to its non-performance.*
 
-<sup>2</sup>*The parameter $\alpha$ is kept at default value of 0.01.*
+<sup>2</sup>*The parameter* $\alpha$ *is kept at default value of 0.01.*
 
 ## Figure 2: Results Comparison
 ![Graph Results](assets/Graph_sefet.png)
