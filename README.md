@@ -97,8 +97,6 @@ where, in SELU,  $\lambda$ $\approx$ 1.05 is the scale and $\alpha$ $\approx$ 1.
 ## Figure 2: Results Comparison
 ![Graph Results](assets/Graph_sefet.png)
 
-## Codes and model weights will be released at the earliest once the paper is published.
-
 ## Citation
 ```
 @INPROCEEDINGS{10718061,
