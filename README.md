@@ -101,17 +101,17 @@ where, in SELU,  $\lambda$ $\approx$ 1.05 is the scale and $\alpha$ $\approx$ 1.
 
 ## Citation
 ```
-@INPROCEEDINGS{PaperID 431,
-  author={Prem Kumar, Pradeesh and Satheesh, Rahul and Alhelou, Hassan Haes},
-  booktitle={2024 IEEE 4th International Conference on Sustainable Energy and Future Electric Transportation (SEFET)},
-  title={Impact of Activation Functions in Deep Learning Based State of Charge Estimation for Batteries},
+@INPROCEEDINGS{10718061,
+  author={Kumar, Pradeesh Prem and Satheesh, Rahul and Alhelou, Hassan Haes},
+  booktitle={2024 IEEE 4th International Conference on Sustainable Energy and Future Electric Transportation (SEFET)}, 
+  title={Impact of Activation Functions in Deep Learning Based State of Charge Estimation for Batteries}, 
   year={2024},
   volume={},
   number={},
-  pages={},
-  keywords={Electric Vehicles; Deep Learning; LSTM; Activation functions; State of Charge},
-  doi={},
-}
+  pages={1-6},
+  keywords={Training;Deep learning;Accuracy;Costs;Computational modeling;Estimation;Aging;Data models;Batteries;State of charge;Electric Vehicles;Deep Learning;LSTM;Activation functions;State of Charge},
+  doi={10.1109/SEFET61574.2024.10718061}}
+
 ```
 ```
 @inproceedings{10.1145/3462203.3475878,
